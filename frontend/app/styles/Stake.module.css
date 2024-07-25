@@ -1,0 +1,85 @@
+/* /styles/Stake.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.sectionTitle {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  box-sizing: border-box;
+}
+
+.button {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.status {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  color: #3c763d;
+  border-radius: 0.25rem;
+  max-width: 600px;
+}
+
+.buttonWallet {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: fixed; /* Fixed position */
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.buttonWallet:hover {
+  background-color: #45a049;
+}

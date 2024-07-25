@@ -1,0 +1,30 @@
+/* /styles/HomePage.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}

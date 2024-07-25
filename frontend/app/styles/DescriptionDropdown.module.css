@@ -1,0 +1,23 @@
+.tooltipContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.infoIcon {
+  cursor: pointer;
+  font-size: 0.7em;
+  margin-left: 10px;
+}
+
+.tooltip {
+  position: absolute;
+  top: -5px;
+  left: 25px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 300px;
+}

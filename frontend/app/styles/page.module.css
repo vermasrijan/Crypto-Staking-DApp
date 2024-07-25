@@ -1,0 +1,116 @@
+/* Home.module.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.status {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.buttonWallet {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: fixed; /* Fixed position */
+  top: 10px; /* Distance from the top */
+  right: 10px; /* Distance from the right */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+.buttonWallet:hover {
+  background-color: #45a049;
+}
+
+/* Add this to your page.module.css file */
+
+.selectContainer {
+  position: relative;
+  width: 100%;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 20px;
+  appearance: none;
+  background-color: #f9f9f9;
+}
+
+.select:focus {
+  border-color: #0070f3;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 112, 243, 0.5);
+}
+
+.selectIcon {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #999;
+}
+
+.smallButton {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
